@@ -1,4 +1,4 @@
-name: 'Test Net-SSLeay interactively'
+name: 'Test Net-SSLeay build interactively'
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   shell:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Setup tmate session
         uses: mxschmitt/action-tmate@v3
