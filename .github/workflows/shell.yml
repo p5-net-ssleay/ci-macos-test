@@ -1,4 +1,4 @@
-name: 'Test Net-SSLeay build interactively'
+name: 'Test Net-SSLeay interactively'
 
 on:
   push:
